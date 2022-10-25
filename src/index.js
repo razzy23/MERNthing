@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App'; //creates the file. the starting point of the app
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root')); //loading the app into the div element in index.html
 root.render(
   <React.StrictMode>
     <App />
